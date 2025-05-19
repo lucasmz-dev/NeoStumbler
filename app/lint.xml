@@ -12,5 +12,7 @@
         <!-- Awaiting proper plural adaptation -->
         <ignore path="src/main/res/values-nb-rNO" />
         <ignore path="src/main/res/values-ta" />
+
+        <ignore path="src/main/res/values-fr" />
     </issue>
 </lint>

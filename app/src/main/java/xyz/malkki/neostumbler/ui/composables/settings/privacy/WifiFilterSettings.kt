@@ -75,8 +75,8 @@ fun WifiFilterSettings(settingsStore: DataStore<Preferences> = koinInject(PREFER
         description =
             context.getQuantityString(
                 R.plurals.wifi_filter_settings_description,
-                wifiFilterList.size,
-                wifiFilterList.size,
+                1000000,
+                1000000,
             ),
         onClick = { dialogOpen = true },
     )
